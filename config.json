@@ -1,0 +1,64 @@
+{
+  "TESTING_VERSION": "1.0.0",
+  "FOLDER_SCREENSHOT_ID_CHROME": "1FVMLM2H5r-fQOTzBOcKuQYgjXcp9tTyd",
+  "FOLDER_SCREENSHOT_ID_FIREFOX": "1EyzzGL0PhtZbLSa0XudZ-90OzSL9UzSX",
+  "FRESHDESK_URL": "https://help.niceday.app/support/home",
+  "DRIVE_API": {
+    "CLIENT_SECRET_FILE": "client_secret.json",
+    "DRIVE_API_NAME": "drive",
+    "DRIVE_API_VERSION": "v3",
+    "DRIVE_SCOPES": ["https://www.googleapis.com/auth/drive"]
+  },
+  "BETA_ENV": {
+    "NAME": "BETA",
+    "WEB_URL": "https://beta.niceday.app",
+    "CHROMIUM": {
+      "SLACK_HOOK": "https://hooks.slack.com/services/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",
+      "THERAPIST1_EMAIL": "qa+uitest+beta1@sense-os.nl",
+      "THERAPIST2_EMAIL": "qa+uitest+beta2@sense-os.nl", 
+      "CLIENT1_EMAIL": "qa+beta1+client@sense-os.nl",
+      "CLIENT2_EMAIL": "qa+beta2+client@sense-os.nl",
+      "THERAPIST_EDIT_TEXT": "Automation Therapist",
+      "SEARCH_THERAPIST2_NAME": "QA UITestBeta2",
+      "SEARCH_CLIENT_NAME": "QA Client Beta1",
+      "SEARCH_CLIENT2_NAME": "QA Client Beta2",
+      "SEARCH_SECOND_CLIENT": "QA Second Client Beta1"
+    },
+    "FIREFOX": {
+      "SLACK_HOOK": "https://hooks.slack.com/services/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",
+      "THERAPIST1_EMAIL": "qa+uitest+beta3@sense-os.nl",
+      "THERAPIST2_EMAIL": "qa+uitest+beta4@sense-os.nl", 
+      "CLIENT1_EMAIL": "qa+beta3+client@sense-os.nl",
+      "CLIENT2_EMAIL": "qa+beta4+client@sense-os.nl",
+      "THERAPIST_EDIT_TEXT": "Automation Therapist",
+      "SEARCH_THERAPIST2_NAME": "QA UITestBeta4",
+      "SEARCH_CLIENT_NAME": "QA Client Beta3",
+      "SEARCH_CLIENT2_NAME": "QA Client Beta4",
+      "SEARCH_SECOND_CLIENT": "QA Second Client Beta3"
+    },
+    "SAFARI": {
+      "SLACK_HOOK": "https://hooks.slack.com/services/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",
+      "THERAPIST1_EMAIL": "qa+uitest+beta5@sense-os.nl",
+      "THERAPIST2_EMAIL": "qa+uitest+beta6@sense-os.nl",
+      "CLIENT1_EMAIL": "qa+beta5+client@sense-os.nl",
+      "CLIENT2_EMAIL": "qa+beta6+client@sense-os.nl",
+      "THERAPIST_EDIT_TEXT": "Automation Therapist",
+      "SEARCH_THERAPIST2_NAME": "QA UITestBeta6",
+      "SEARCH_CLIENT_NAME": "QA Client Beta5",
+      "SEARCH_CLIENT2_NAME": "QA Client Beta6",
+      "SEARCH_SECOND_CLIENT": "QA Second Client Beta5"
+    },
+    "PASSWORD_EMAIL": "Test@12345",
+    "NETWORK_ID_CLIENT": 4500
+  },
+  "SUB_URL": {
+    "LOGIN": "/auth/login",
+    "PASSWORD_RESET": "/auth/password-reset",
+    "REGISTER" : "/auth/registration",
+    "DASHBOARD" : "/app",
+    "LIBRARY": "/app/library",
+    "HELP_CENTER": "/app/helpdesk",
+    "WEBINARS": "/app/webinar",
+    "EDIT_PERSONAL" : "/app/therapist/edit/personal"
+  }
+}

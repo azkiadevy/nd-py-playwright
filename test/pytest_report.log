@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-6.1.1, py-1.8.2, pluggy-0.13.1 -- /usr/local/opt/python@3.9/bin/python3.9
+cachedir: .pytest_cache
+rootdir: /Users/devyazkia/Documents/research-repo/nd-py-playwright, configfile: pytest.ini
+plugins: base-url-1.4.2, playwright-0.1.2, repeat-0.7.0, html-3.1.1, order-0.9.2, dependency-0.5.1, allure-pytest-2.7.1, timeout-1.4.2, qase-pytest-2.2.0
+collecting ... collected 3 items
+
+test_login.py::TestAuthLogin::test_login_with_valid_data[chromium] PASSED
+test_login.py::TestAuthLogin::test_login_blank_email_invalid_password[chromium] FAILED
+test_login.py::TestAuthLogin::test_login_blank_email_valid_password[chromium] FAILED
